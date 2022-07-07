@@ -52,7 +52,7 @@
     └──────────────────
 ```
 
-- There have no Edit option for now. you just create disable and delete. 
+- There have no Edit option for now. you just create, disable and delete. 
 
 - Please avoid to delete `Global Area`, you can disable item of `Global Area` and create new one.
 
