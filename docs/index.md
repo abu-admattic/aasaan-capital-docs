@@ -22,7 +22,7 @@
 
 ## About Server Dashboard
 - Please Check The Diagram Below
-##
+```
     ├─────────────────
     ├─ Aasaan Admin
     │  ├─ My Profile
@@ -44,6 +44,7 @@
     │  ├─ Users
     │  └─ Admins
     └──────────────────
+```
 - There have no Edit option for now. you just create disable and delete. 
 - Please avoid to delete `Global Area`, you can disable item of `Global Area` and create new one.
 - You cannot create User From  `User Area > Users`, But you can disable or delete a user.
