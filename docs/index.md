@@ -1,37 +1,57 @@
-## Welcome to GitHub Pages
+# Aassan Capital Server
 
-You can use the [editor on GitHub](https://github.com/codewithneon/docs-aasaan/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## About Server Login 
+- we have create 3 key login system in login page there are
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    > user eamil
+    
+    > user mobile
 
-### Markdown
+    > user password
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+- There are not registration or recovery page but you can create a new admin after login as default account that we will provide.
 
-- Bulleted
-- List
+- the defalt login account you can't delete but you can update your password
 
-1. Numbered
-2. List
+- For admin panel you have to visit `{{base_url}}/admin/` & give your credentials for login.
 
-**Bold** and _Italic_ and `Code` text
+- We will send defalut `credentials` and `{{base_url}}` when ever you asked.
+----
 
-[Link](url) and ![Image](src)
-```
+## About Server Dashboard
+- Please Check The Diagram Below
+##
+    ├─────────────────
+    ├─ Aasaan Admin
+    │  ├─ My Profile
+    │  └─ Logout
+    ├─────────────────
+    │  └─ Dashboard
+    ├─── Home Area ───
+    │  ├─ offers
+    │  │  └─ Create
+    │  ├─ Quick Banner
+    │  │  └─ Create
+    │  └─Ads/Sponsored
+    │     └─ Create
+    ├─── Global Area ──
+    │  ├─ Incomes Range
+    │  ├─ Categories
+    │  └─ Cities
+    ├──── User Area ───
+    │  ├─ Users
+    │  └─ Admins
+    └──────────────────
+- There have no Edit option for now. you just create disable and delete. 
+- Please avoid to delete `Global Area`, you can disable item of `Global Area` and create new one.
+- You cannot create User From  `User Area > Users`, But you can disable or delete a user.
+- if you delete user same user create a account again. disable user is blocked.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- when you create a category you will find a switch asked `Item Has Details`. When you put `on` this will appear on `Offer Page Category` otherwise it will appear to `Quick Offer Page Category`. 
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/codewithneon/docs-aasaan/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+> further query please contact to our developer team
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
