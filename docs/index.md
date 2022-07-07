@@ -2,7 +2,7 @@
 
 ### About Server Login 
 
-- we have create 3 key login system in login page there are
+- we have create 3 key login system in login page
 
     > user eamil
     
@@ -11,7 +11,7 @@
     > user password
 
 
-- There are not registration or recovery page but you can create a new admin after login as default account that we will provide.
+- There are no registration or recovery page but you can create a new admin after login as default account that we will provide.
 
 - the defalt login account you can't delete but you can update your password
 
